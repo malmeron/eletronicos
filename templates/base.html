@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+</head>
+<body>
+    <br>
+    <div class="container" align="center">
+        <h2>Início do base</h2>
+        {% block main %}
+        {% endblock %}
+        <h2>Fim do base</h2>
+        <button class="btn btn-success">Teste</button>
+    </div>
+</body>
+</html>
