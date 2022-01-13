@@ -131,7 +131,7 @@ STATICFILES_DIRS = [
     '/home/ubuntu/eletronicos/static',
 ]
 #STATIC_ROOT = os.path.join(BASE_DIR, "static/")
-STATIC_ROOT = os.path.join(BASE_DIR, "/static/")
+#STATIC_ROOT = os.path.join(BASE_DIR, "/static/")
 STATIC_ROOT = '/home/ubuntu/eletronicos/static'
 
 #fonte: https://github.com/OpenToAllCTF/OTA-University/issues/9
