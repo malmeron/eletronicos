@@ -1,6 +1,11 @@
+
+venv_eletronicos
 .idea
 *.sqlite3
 venv_eletronicos
 __pycache__
 __pycache__/
 *.pyc
+eletronicos/__pycache__/
+eletronicos.pem
+static
