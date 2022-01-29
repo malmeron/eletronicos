@@ -3,7 +3,7 @@ from apps.fornecedores.models import Fornecedor
 # Create your models here.
 class Produto(models.Model):
     nome = models.CharField(max_length=100,help_text='Nome do Produto')
-    dataCompra = models.DateTimeField()
+    dataCompra = models.DateTimeField(blank=True)
     precoUnitario = models.DecimalField(max_digits=8, decimal_places=2)
     #imagem =
     fornecedor = models.ForeignKey(Fornecedor, on_delete=models.CASCADE)
